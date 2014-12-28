@@ -36,10 +36,10 @@ Set PASSWORD=PASSWORD for the zip password.
 
 Set EMAIL="EMAIL" to the reciepent adress.
 
-Setup daily backups
+Setup as a daily backup
 --------------
 Drop the files in your home folder and chmod +x them.
 
-Add run_backup.sh to your crontab
+Add run_backup.sh to your crontab.
 
 0 7 * * * /home/user/run_backup.sh
