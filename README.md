@@ -1,5 +1,9 @@
 El-Backupo
 ==============
+What is this and does this do ?
+--------------
+This is a bash script i wrote to backup my entire MySQL database and some files, zip them with a password, sync it to my google drive and e-mail me the logs once its done.
+
 
 Install Grive
 --------------
@@ -24,6 +28,15 @@ Setup Grive
 cd /mnt/GoogleDrive
 
 grive -a
+
+
+Setup backup.sh to your liking.
+-------------
+Set $FOLDER1 for file backups.
+
+Set PASSWORD=PASSWORD for the zip password
+
+If you have mail setup set EMAIL="EMAIL" to the reciepent adress.
 
 Setup daily backups
 --------------
