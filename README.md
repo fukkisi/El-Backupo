@@ -30,11 +30,11 @@ grive -a
 
 Setup backup.sh to your liking.
 -------------
-Set $FOLDER1 for file backups.
+Set $FOLDER1 etc for file backups.
 
-Set PASSWORD=PASSWORD for the zip password
+Set PASSWORD=PASSWORD for the zip password.
 
-If you have mail setup set EMAIL="EMAIL" to the reciepent adress.
+Set EMAIL="EMAIL" to the reciepent adress.
 
 Setup daily backups
 --------------
