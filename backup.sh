@@ -11,9 +11,9 @@ fi
     TODAY=$(date +%d-%m-%Y)
     SQLNAME="${SYSNAME}_SQL_${TODAY}.zip"
     FILENAME="${SYSNAME}_files_$TODAY.zip"
-    HOME="/home/user"
-    WWW="/usr/share/nginx/www"
-    BOTS="/opt/bin/"
+    FOLDER1="/home/user"
+    FOLDER2="/usr/share/nginx/www"
+    FOLDER3="/opt/bin/"
     GRIVEROOT="/mnt/GoogleDrive"
     LOCAL="/mnt/Local"
     LOGS="$LOCAL/logs"
@@ -54,7 +54,7 @@ log_message "#FILE BACKUP#"
 log_message "#############"
 
 log_message "Compressing $FILES to $FILENAME"
-    zip -rP $PASSWORD $FILENAME $HOME $WWW
+    zip -rP $PASSWORD $FILENAME $FOLDER1 $FOLDER2 $FOLDER3
 log_message "Moving $LOCAL/$FILENAME to $GRIVEBACKUP/$FILENAME"
     mv $LOCAL/$FILENAME $GRIVEBACKUP/$FILENAME
 log_message "Moving $LOCAL/$SQLNAME to $GRIVEBACKUP/$SQLNAME"
