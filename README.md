@@ -1,5 +1,3 @@
-El-Backupo
-==============
 What is this and does this do ?
 --------------
 This is a bash script i wrote to backup my entire MySQL database and some files, zip them with a password, sync it to my google drive and e-mail me the logs once its done.
