@@ -34,7 +34,7 @@ Set $FOLDER1 etc for file backups.
 
 Set PASSWORD=PASSWORD for the zip password.
 
-Set EMAIL="EMAIL" to the reciepent adress.
+Set EMAIL="EMAIL" to the recipient adress.
 
 Setup as a daily backup
 --------------
